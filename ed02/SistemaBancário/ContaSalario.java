@@ -14,7 +14,7 @@ public class ContaSalario extends Conta {
 
     @Override
     public void imprimirExtrato() {
-        System.out.println("-Extrato Conta Salário-");
+        System.out.println("\n-Extrato Conta Salário-");
         super.imprimirExtrato();
     }
 }
